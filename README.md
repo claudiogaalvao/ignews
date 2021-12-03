@@ -1,5 +1,5 @@
 # Ignews
-That's a project of content subscription about React News, that I started with the objective to apply NextJs concepts. In that project I worked with Sass, CSS Modules, TypeScript, FaunaDB integration and explore concepts like SSR (Server-side Rendering) and SSG (Static Site Generation). There's a possibility to subscribe to access the articles, so I integrated with an external payment API (Stripe).
+That's a project of content subscription about React News, that I started with the objective to apply NextJs concepts. In that project I worked with Sass, CSS Modules, TypeScript, FaunaDB, Authentication with Next Auth and explore concepts like CSR (Client-side Rendering), SSR (Server-side Rendering) and SSG (Static Site Generation). There's a possibility to subscribe to access the articles, so I integrated with an external payment API (Stripe).
 
 # What is NextJs (Simple description)
 NextJs is a framework for ReactJs. The NextJs work with SSR concept that add more performance to our application and indexing of page content by search engines.
