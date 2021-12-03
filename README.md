@@ -5,7 +5,6 @@ That's a project of content subscription about React News, that I started with t
 NextJs is a framework for ReactJs. The NextJs work with SSR concept that add more performance to our application and indexing of page content by search engines.
 
 # How to run the project
-
 - First, garantee that you have installed NodeJs and npm on your machine. 
 
   - You can check with this command ``` npx --version ```
@@ -17,3 +16,6 @@ NextJs is a framework for ReactJs. The NextJs work with SSR concept that add mor
 - The second step is download the dependencies. To do that, open the project in some terminal on the root path, and execute ``` npm install ```
 
 - After finish the dependencies download, execute ``` npm run dev ```, then you should be able to identify the link to open on your browser
+
+# Future features plan
+- Connect Front-end to a CMS to manage posts
