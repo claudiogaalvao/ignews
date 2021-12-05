@@ -2,7 +2,7 @@ import { GetStaticProps } from 'next';
 import Head from 'next/head';
 
 import { SubscribeButton } from '../components/SubscribeButton';
-import { stripe } from '../services';
+import { stripe } from '../services/stripe';
 
 import styles from './home.module.scss';
 
@@ -54,6 +54,7 @@ export const getStaticProps: GetStaticProps = async () => {
     props: {
       product
     },
+    // Revalidate: How many time (in seconds), I want keep the page without revalidate (rebuild)
     revalidate: 60 * 60 * 24, // 24 hours
   }
 }
