@@ -15,7 +15,11 @@ NextJs is a framework for ReactJs. The NextJs work with SSR concept that add mor
   
 - The second step is download the dependencies. To do that, open the project in some terminal on the root path, and execute ``` npm install ```
 
-- After finish the dependencies download, execute ``` npm run dev ```, then you should be able to identify the link to open on your browser
+- After finish the dependencies download, execute ``` npm run dev ```, then you should be able to identify the link to open on your browser, like that:
+
+  <img src="https://github.com/claudiogaalvao/ignews/raw/master/public/images/Screenshot_1.png" style="width: 100%; height: auto;" />
+
+- To local test features like subscription canceled and subcription saving on database, it's necessary listen the stripe events. To listen that, download Stripe CLI (https://stripe.com/docs/stripe-cli). For Windows, unzip the file and open the file on cmd. Run the command ``` stripe login ```. After that, to let listening locally, execute the command ``` stripe listen --forward-to localhost:3000/api/webhooks ```
 
 # Future features plan
 - Connect Front-end to a CMS to manage posts
