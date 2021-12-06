@@ -22,4 +22,5 @@ NextJs is a framework for ReactJs. The NextJs work with SSR concept that add mor
 - To local test features like subscription canceled and subcription saving on database, it's necessary listen the stripe events. To listen that, download Stripe CLI (https://stripe.com/docs/stripe-cli). For Windows, unzip the file and open the file on cmd. Run the command ``` stripe login ```. After that, to let listening locally, execute the command ``` stripe listen --forward-to localhost:3000/api/webhooks ```
 
 # Future features plan
+- List posts
 - Connect Front-end to a CMS to manage posts
